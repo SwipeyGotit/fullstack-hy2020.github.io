@@ -45,11 +45,11 @@ Open the browser and a text editor so that you can view the code as well as the 
 The code of the application resides in the <i>src</i> folder. Let's simplify the default code such that the contents of the file main.jsx looks like this:
 
 ```js
-import ReactDOM from 'react-dom/client'
+import ReactDom from 'react-dom/client'
 
 import App from './App'
 
-ReactDOM.createRoot(document.getElementById('root')).render(<App />)
+ReactDom.createRoot(document.getElementById('root')).render(<App />)
 ```
 
 and file <i>App.jsx</i> looks like this
@@ -73,7 +73,7 @@ The files <i>App.css</i> and <i>index.css</i>, and the directory <i>assets</i> m
 The file <i>App.jsx</i> now defines a [React component](https://react.dev/learn/your-first-component) with the name <i>App</i>. The command on the final line of file <i>main.jsx</i>
 
 ```js
-ReactDOM.createRoot(document.getElementById('root')).render(<App />)
+ReactDom.createRoot(document.getElementById('root')).render(<App />)
 ```
 
 renders its contents into the <i>div</i>-element, defined in the file <i>index.html</i>, having the <i>id</i> value 'root'.
@@ -636,11 +636,11 @@ For each web application for a series of exercises, it is recommended to submit 
 Use Vite to initialize a new application. Modify <i>main.jsx</i> to match the following
 
 ```js
-import ReactDOM from 'react-dom/client'
+import ReactDom from 'react-dom/client'
 
 import App from './App'
 
-ReactDOM.createRoot(document.getElementById('root')).render(<App />)
+ReactDom.createRoot(document.getElementById('root')).render(<App />)
 ```
 
 and <i>App.jsx</i> to match the following
